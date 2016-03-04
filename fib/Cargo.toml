@@ -4,3 +4,7 @@ version = "0.1.0"
 authors = ["bstil22 <brady.stilwell@csaa.com>"]
 
 [dependencies]
+
+[[bin]]
+name = "fib"
+path = "src/lib.rs"
