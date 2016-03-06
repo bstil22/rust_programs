@@ -1,4 +1,3 @@
-use std::fmt::{self, Formatter, Display};
 fn main() {
     let values: Vec<i32> = (1..42).map(|x| fib(x)).collect();
     for x in &values {
